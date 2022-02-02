@@ -1,12 +1,12 @@
 package ru.geekbrains.motuzok.geekuniversity.java.lesson5;
 
 public class Employee {
-    String fullName;
-    String position;
-    String email;
-    String phoneNumber;
-    double salary;
-    int age;
+    private String fullName;
+    private String position;
+    private String email;
+    private String phoneNumber;
+    private double salary;
+    private int age;
 
     public Employee(String fullName, String position, String email, String phoneNumber, double salary, int age) {
         this.fullName = fullName;
